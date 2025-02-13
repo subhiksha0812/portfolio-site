@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFF7F0;
+    padding: 50px;
+    padding-right: 60px;
+}
+
+
+.mydetails {
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+
+
+
+}
+
+.mydetails__contact {
+    color: black;
+    border: #F2E6DA solid 1px;
+    background-color: #E6D5C5;
+    border: none;
+    border: black solid 1px;
+    padding: 5px;
+    display: block;
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.mydetails__port {
+    align-items: center;
+    margin: 10px;
+}
+
+.mydetails__mailid {
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.mydetails__mailid a {
+    text-decoration: none;
+    color: black
+}
+
+.mydetails__contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.aoe {
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.workexp {
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.workexp__title {
+    margin: 20px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workexp--captsee {
+    background-color: floralwhite;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 25px;
+    vertical-align: top;
+}
+
+.workexp--exe {
+    background-color: floralwhite;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 25px;
+    vertical-align: top;
+}
+
+.workexp--sde {
+    background-color: floralwhite;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    padding-right: 130px;
+    border-radius: 25px;
+    vertical-align: top;
+}
+
+.workexp--se {
+    background-color: floralwhite;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 30px;
+    padding-right: 210px;
+    border-radius: 25px;
+    vertical-align: top;
+}
+
+
+.projects {
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.projects__title {
+    font-size: large;
+    margin: 10px;
+}
+
+.projects__desc {
+    padding-left: 10px;
+}
+
+.table {
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.table__title {
+    padding: 10px;
+}
+
+.languages {
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.languages__title {
+    padding: 10px;
+}
+
+.languages__disc {
+    padding: 10px;
+}
+
+.about__title {
+    font-size: large;
+    margin: 10px;
+}
+
+.aoe__title {
+    font-size: large;
+    margin: 10px;
+}
+
+.table__contents table {
+    background-color: floralwhite;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    border: antiquewhite solid 1px;
+}
+
+.table__contents td {
+    padding: 10px;
+}
+
+.contactdetails
+{
+    font-size: large;
+}
+.contactdetails--table__service,
+.contactdetails--table__options,
+.contactdetails--table__name,
+.contactdetails--table__nameinput,
+.contactdetails--table__mailid,
+.contactdetails--table__mailidinput,
+.contactdetails--table__birthday,
+.contactdetails--table__birthdayinput,
+.linkedin,.linkedin__link,.gender,.gender__radio,.submitbutton,
+.backtoportfolio
+{
+    padding: 10px;
+}
+
+.contactdetails--table__address
+{
+    padding: 10px;
+}
+
+.contactdetails--table__nameinput td{
+  border: none;
+}
